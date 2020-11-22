@@ -35,7 +35,7 @@ function getWeather() {
                     "Humidity: " + data.main.humidity + "%";
                 let iconName =
                     data.weather[0].icon;
-                let iconLocation = "<img src='../img/"+iconName+".png'></img>";
+                let iconLocation = "<img src='img/"+iconName+".png'></img>";
                 weatherIcon.innerHTML =
                     iconLocation;
                     
