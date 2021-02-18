@@ -12,9 +12,9 @@ body {
   min-height: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background: url("../img/weather-app.jpg");
   width: 100%;
   height: 100%;
-  
 }
 
 .flex-container {
@@ -37,7 +37,6 @@ h1 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  
 }
 .btn-sm {
   vertical-align: baseline;
@@ -50,13 +49,12 @@ h1 {
   margin-bottom: 2rem;
   color: white;
   border-radius: 3rem;
-  background-color: #0093E9;
-  background-image: -o-linear-gradient(290deg, #0093E9 0%, #80D0C7 100%);
-  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-color: #0093e9;
+  background-image: -o-linear-gradient(290deg, #0093e9 0%, #80d0c7 100%);
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
   min-width: 33%;
   position: relative;
   top: 100px;
-  
 }
 #temp-holder {
   display: -webkit-box;
@@ -100,10 +98,13 @@ h1 {
 }
 
 footer {
-  color:black;
+  color: black;
   vertical-align: bottom;
   position: fixed;
   bottom: 25px;
+}
+footer a {
+  color: white;
 }
 
 .title {
@@ -111,7 +112,7 @@ footer {
 }
 .thickhr1 {
   background-color: ghostwhite;
-  position: fixed; 
+  position: fixed;
 }
 
 .my-4 {
@@ -122,4 +123,12 @@ footer {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+
+.instructions {
+  text-align: center;
+  color: white;
+}
+.instructions a {
+  color: white;
 }
