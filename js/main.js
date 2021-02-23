@@ -13,8 +13,8 @@ function getWeather() {
     navigator.geolocation.getCurrentPosition(success, error);
 
     function success(position) {
-        latitude = position.coords.latitude;
-        longitude = position.coords.longitude;
+        let latitude = position.coords.latitude;
+        let longitude = position.coords.longitude;
 
         let url = api + "?lat=" + latitude + "&lon=" + longitude + "&appid=" + apiKey + "&units=imperial";
         

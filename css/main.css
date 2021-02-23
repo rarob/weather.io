@@ -132,3 +132,10 @@ footer a {
 .instructions a {
   color: white;
 }
+
+.api {
+  text-decoration: underline;
+}
+#zip {
+  text-align: center;
+}
