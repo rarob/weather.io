@@ -1,27 +1,18 @@
-/* Extra small devices (phones, 600px and down) 
- max-width */
-/* Small devices (portrait tablets and large phones, 600px and up) 
- min-width */
-/* Medium devices (landscape tablets, 768px and up) 
- min-width  */
-/* Large devices (laptops/desktops, 992px and up) 
- min-width  */
-/* Extra large devices (large laptops and desktops, 1200px and up)
- min-width  */
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+/* Error: expected "{".
+ *   ,
+ * 1 | z
+ *   |  ^
+ *   '
+ *   sass\pages\_home.scss 1:2  @import
+ *   sass\main.scss 16:9        root stylesheet */
 
-html {
-  font-size: 62.5%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a   \2577 \a 1 \2502  z\a   \2502   ^\a   \2575 \a   sass\\pages\\_home.scss 1:2  @import\a   sass\\main.scss 16:9        root stylesheet';
 }
-
-body {
-  box-sizing: border-box;
-}
-
-/*# sourceMappingURL=style.css.map */
