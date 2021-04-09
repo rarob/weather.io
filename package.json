@@ -1,0 +1,19 @@
+{
+  "name": "weather.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cs": "sass --watch sass/main.scss:css/style.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarob/weather.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rarob/weather.io/issues"
+  },
+  "homepage": "https://github.com/rarob/weather.io#readme"
+}

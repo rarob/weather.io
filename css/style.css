@@ -1,0 +1,27 @@
+/* Extra small devices (phones, 600px and down) 
+ max-width */
+/* Small devices (portrait tablets and large phones, 600px and up) 
+ min-width */
+/* Medium devices (landscape tablets, 768px and up) 
+ min-width  */
+/* Large devices (laptops/desktops, 992px and up) 
+ min-width  */
+/* Extra large devices (large laptops and desktops, 1200px and up)
+ min-width  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */
